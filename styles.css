@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: rgba(128, 0, 128, 0.253); */
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container{
+    background-color: rgba(0, 255, 255, 0.364);
+    width: 40%;
+    line-height: 4.2rem;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.375);
+}
+.container input{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+th{
+    /* border: 2px solid black; */
+}
+.container select option{
+    padding: 15px;
+}
+table{
+    width: 40%;
+    background-color: rgba(137, 43, 226, 0.204);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.545);
+    border-collapse: collapse;
+
+}
+table tr,th,td{
+    padding: 20px;
+}
+tr i{
+    font-size: 25px;
+    color: crimson;
+    padding: 10px;
+}
